@@ -1,22 +1,48 @@
-# setup_for_mac
+# Setup for Mac
 
 Macのセットアップ方針です
 
+## Browser
+
+- Firefox (default)
+- Google Chrome
+- Safari
+
+※ Firefox は WebGL まわりで google meet の背景ぼかしが使えないため、Chrome を使用すること
+
 ## Tools
+
+便利ツール系
 
 - [Clipy](https://clipy.softonic.jp/mac) / クリップボード履歴
 - [HyperSwitch](https://bahoom.com/hyperswitch) / `cmd + tab` でウィンドウの切り替えをする
 
+開発ツール系
 
-## Homebrew
-
-https://brew.sh/index_ja
+- [Homebrew](https://brew.sh/index_ja)
+- Docker
+- [Volta](https://volta.sh/) (JavaScript Tool Manager)
 
 ### Docker
 
 ```bash
 $ brew install --cask docker; # Dockerのインストール
 $ open /Applications/Docker.app; # Docker for Mac および docker-compose コマンドが入る
+```
+
+### Volta
+
+公式を引用、Homebrew経由で入れるとちょい厄介なので必ず以下の手順から😥
+
+```bash
+# install Volta
+curl https://get.volta.sh | bash
+
+# install Node
+volta install node
+
+# start using Node
+node
 ```
 
 ## Fonts
