@@ -64,3 +64,6 @@ node
 ### Fonts 変更
 
 - `Cica(シカ)` をデフォルトに設定
+
+
+<img src="./terminal.jpg" />
