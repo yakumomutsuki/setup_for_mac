@@ -2,37 +2,42 @@
 
 Macのセットアップ方針です
 
-## Browser
+# Browser
+
+Macで導入するブラウザ一覧です
 
 - Firefox (default)
 - Google Chrome
 - Safari
 
-※ Firefox は WebGL まわりで google meet の背景ぼかしが使えないため、Chrome を使用すること
+※ Firefox は WebGL まわりで google meet の背景ぼかしが使えないため、google meet 利用時は Chrome を使用すること
 
-## Tools
+# Tools
 
-便利ツール系
+Macで導入するツール一覧です
 
-- [Clipy](https://clipy.softonic.jp/mac) / クリップボード履歴
-- [HyperSwitch](https://bahoom.com/hyperswitch) / `cmd + tab` でウィンドウの切り替えをする
+|  便利ツール系  |  機能  |
+| ---- | ---- |
+|  [Clipy](https://clipy.softonic.jp/mac)  |  クリップボード履歴  |
+|  [HyperSwitch](https://bahoom.com/hyperswitch)  |  `cmd + tab` でウィンドウの切り替えをする  |
 
-開発ツール系
 
-- [Homebrew](https://brew.sh/index_ja)
-- Docker
-- [Volta](https://volta.sh/) (JavaScript Tool Manager)
+|  開発ツール系  |  機能  |
+| ---- | ---- |
+|  [Homebrew](https://brew.sh/index_ja)  |  パッケージ管理  |
+|  Docker  |  仮想環境/コンテナ  |
+|  [Volta](https://volta.sh/)  |  JavaScript Tool Manager  |
 
-### Docker
+## Docker
 
 ```bash
-$ brew install --cask docker; # Dockerのインストール
-$ open /Applications/Docker.app; # Docker for Mac および docker-compose コマンドが入る
+brew install --cask docker; # Dockerのインストール
+open /Applications/Docker.app; # Docker for Mac および docker-compose コマンドが入る
 ```
 
-### Volta
+## Volta
 
-公式を引用、Homebrew経由で入れるとちょい厄介なので必ず以下の手順から😥
+公式を引用、Homebrew 経由で入れるとちょい厄介なので必ず以下の手順から😥
 
 ```bash
 # install Volta
@@ -52,16 +57,16 @@ node
 
 ## Terminal
 
-### テーマ変更
+テーマ変更
 
-- [bashからZshに乗り換え - preztoを使ってプロンプトテーマを変えてみた](https://qiita.com/gilly/items/5ff7bd7142e963cdbb9b) を実行する
-- thema の変更はせず、`sorin` を使用します
+- [bashからZshに乗り換え - preztoを使ってプロンプトテーマを変えてみた](https://qiita.com/gilly/items/5ff7bd7142e963cdbb9b)
+- ただし thema の変更はせず、`sorin` を使用します
 
-### Git の補完機能追加
+Git の補完機能追加
 
-- https://zenn.dev/aruneko/articles/26815f95ea2124
+- [ZshでのGitのコマンド補完をもっと便利にする on Linux](https://zenn.dev/aruneko/articles/26815f95ea2124)
 
-### Fonts 変更
+Fonts 変更
 
 - `Cica(シカ)` をデフォルトに設定
 
