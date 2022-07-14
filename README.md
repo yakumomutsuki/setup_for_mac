@@ -2,6 +2,10 @@
 
 Macのセットアップ方針です
 
+# General
+
+- [MacでVSCodeのインテリセンス（入力補完）をCommand + Spaceに設定する](https://chimesness.com/post-343/)
+
 # Browser
 
 Macで導入するブラウザ一覧です
