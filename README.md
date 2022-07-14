@@ -2,14 +2,6 @@
 
 Macのセットアップ方針です
 
-# General
-
-- [Mac の日本語入力ソース選択に Ctrl + Space を取られて Eclipse のコンテンツ・アシストが効かなかったときのメモ](https://ebc-2in2crc.hatenablog.jp/entry/2017/10/11/221202)
-- [MacでVSCodeのインテリセンス（入力補完）をCommand + Spaceに設定する](https://chimesness.com/post-343/)
-
-VS Code の補完は `⌘+space` で実行できるようにしておく<br />
-※本当は `ctrl+space` がいいけど既定の設定があるのでいたしかたなく。JetBrains のようにバインディング変更したい
-
 # Browser
 
 Macで導入するブラウザ一覧です
@@ -32,9 +24,17 @@ Macで導入するツール一覧です
 
 |  開発ツール系  |  機能  |
 | ---- | ---- |
+|  [VS Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)  |  高機能コードエディタ  |
 |  [Homebrew](https://brew.sh/index_ja)  |  パッケージ管理  |
 |  Docker  |  仮想環境/コンテナ  |
 |  [Volta](https://volta.sh/)  |  JavaScript Tool Manager  |
+
+## VS Code
+
+- [Mac の日本語入力ソース選択に Ctrl + Space を取られて Eclipse のコンテンツ・アシストが効かなかったときのメモ](https://ebc-2in2crc.hatenablog.jp/entry/2017/10/11/221202)
+- [IntelliJ IDEA Keybindings](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings)
+
+VS Codeのキーマップは Intellij IDEA に変更してあります。
 
 ## Docker
 
