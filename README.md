@@ -7,6 +7,9 @@ Macのセットアップ方針です
 - [Mac の日本語入力ソース選択に Ctrl + Space を取られて Eclipse のコンテンツ・アシストが効かなかったときのメモ](https://ebc-2in2crc.hatenablog.jp/entry/2017/10/11/221202)
 - [MacでVSCodeのインテリセンス（入力補完）をCommand + Spaceに設定する](https://chimesness.com/post-343/)
 
+VS Code の補完は `⌘+space` で実行できるようにしておく<br />
+※本当は `ctrl+space` がいいけど既定の設定があるのでいたしかたなく。JetBrains のようにバインディング変更したい
+
 # Browser
 
 Macで導入するブラウザ一覧です
